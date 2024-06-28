@@ -32,20 +32,26 @@ This is a web-based quiz application that allows users to create quizzes, attemp
     cd quiz-application
 ```
 ### 2. Install dependencies for the frontend and backend:
-### Install frontend dependencies
-cd frontend
-npm install
+#### Install frontend dependencies:
+```bash
+    cd frontend
+    npm install
+```
 
-### Install backend dependencies
-cd backend
-npm install
+#### Install backend dependencies:
+```bash
+    cd backend
+    npm install
+```
 
 ### 3. Start the frontend server:
-cd frontend
-npm start
+```bash
+    cd frontend
+    npm start
+```
 
 ### 4. Start the backend server:
-```bashsh
+```bash
     cd backend
     nodemon server
 ```
